@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh; 
+    min-height: 80vh; 
     padding: 0;
     background-color: black;
     color: white;
@@ -172,6 +172,7 @@ body {
 
 .skill-container:hover{
     transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
 .skill-logo {
@@ -187,7 +188,6 @@ body {
 #projects {
     background-color: transparent;
     padding: 60px 20px;
-    /* color: white; */
 }
 
 .project-wrapper {
@@ -208,7 +208,7 @@ body {
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
+    transform: scale(1.3);
 }       
 .project-card .card-img-top {
     height: 200px;
@@ -224,23 +224,19 @@ body {
     background-color: #465299;
 }
 
-/* 🔁 Responsive: Stack and resize text */
-@media (max-width: 768px) {
-    .introcontainer {
-        width: 90%;
-        padding: 15px;
-    }
-
-    .introtext h1 {
-        font-size: 1.5rem;
-    }
-
-    .introtext p {
-        font-size: 1rem;
-    }
+footer{
+    /* margin-top: 100px; */
+    background-color: #0a0a0a;
+    color: #ccc;
+    padding: 20px; 
+    text-align: center
 }
 
-/* Make .intro stack on small screens */
+#skills,  #contact {
+    background-color: #0d1117;
+
+}
+/* 🔁 Responsive: Stack and resize text */
 @media (max-width: 768px) {
     .intro {
         flex-direction: column;
@@ -256,9 +252,19 @@ body {
     }
 
     .introcontainer {
+        width: 90%;
         text-align: center;
         padding: 0 20px;
     }
+
+    .introtext h1 {
+        font-size: 1.5rem;
+    }
+
+    .introtext p {
+        font-size: 1rem;
+    }
+
     .profilecontainer {
         width: 200px;
         height: 200px;
@@ -270,6 +276,7 @@ body {
         object-fit: cover;
     }
 }
+
 
 @keyframes fadeIn {
     0% {
