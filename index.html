@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="./style.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
 
     </head>
     <body>
@@ -67,8 +69,9 @@
                 </div>
             </section>
              <section id="aboutme">
-                <div class="section-container">
-                    <hi class="head"> About <span class="highlight">me.</span> </hi>
+                <div class="section-container" >
+                    <div  data-aos="fade-right">
+        <h1 class="head"> About <span class="highlight">me.</span> </h1>
                     <p class="about-content">
                         Hey!I'm <span class="highlight">Aflah KM,</span> a frontend web developer with hands-on experience
                         in crafting responsive and accessible websites using HTML, CSS, JavaScript, and Bootstrap. I have a
@@ -78,43 +81,50 @@
                         learning and adapting to new technologies and frameworks to stay current in the ever-evolving web
                         development landscape.
                     </p>
+</div>
+                 
                 </div>
             </section>
             <section id="skills">
                 <div class="section-container">
                     <h1 class="head">Skills.</h1>
         <div class="skills-wrapper">
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-up"
+     data-aos-duration="500" >
                 <div class="skill-logo">
                     <i class="fa-brands fa-html5 fa-5x" style="color: #e34c26;"></i>
                 </div>
                 <p class="skill-name">HTML</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-up"
+     data-aos-duration="550">
                 <div class="skill-logo">
                     <i class="fa-brands fa-css3-alt fa-5x" style="color: #264de4;"></i>
                 </div>
                 <p class="skill-name">CSS</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-up"
+     data-aos-duration="600">
                 <div class="skill-logo">
                     <i class="fa-brands fa-js fa-5x" style="color: #f0db4f;"></i>
                 </div>
                 <p class="skill-name">JavaScript</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-up"
+     data-aos-duration="650">
                 <div class="skill-logo">
                     <i class="fa-brands fa-bootstrap fa-5x" style="color: #563d7c;"></i>
                 </div>
                 <p class="skill-name">Bootstrap</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-up"
+     data-aos-duration="700">
                 <div class="skill-logo">
                     <i class="fa-brands fa-github fa-5x" style="color: #ffffff;"></i>
                 </div>
                 <p class="skill-name">GitHub</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-up"data-aos-duration="750">
                 <div class="skill-logo">
                     <i class="fa-brands fa-figma fa-5x" style="color: #a259ff;"></i>
                 </div>
@@ -128,28 +138,28 @@
                 <h1 class="head">projects.</h1>
                 <div class="section-container">
                     <div class="project-wrapper">
-            <div class="card project-card">
-        <img src="./images/goibibo.png" class="card-img-top" alt="w3school navbar">
-        <div class="card-body">
-          <h5 class="card-title">W3Schools Navbar Clone</h5>
-          <p class="card-text">A responsive replica of the W3Schools navigation bar using HTML and CSS, built to practice layout and styling techniques.</p>
-          <a href="#" class="btn btn-primary">View Project</a>
-        </div>
-      </div>
-            <div class="card project-card">
-        <img src="./images/goibibo.png" class="card-img-top" alt="goibibo clone">
-        <div class="card-body">
-          <h5 class="card-title">Goibibo Homepage Clone</h5>
-          <p class="card-text">A responsive clone of the Goibibo homepage built using HTML and CSS, focused on layout structuring and UI design replication.</p>
-          <a href="#" class="btn btn-primary">View Project</a>
-        </div>
-      </div>
-            <div class="card project-card">
+            <div class="card project-card " style="background-color: rgba(255, 255, 255, 0.05)"  data-aos="fade-up" data-aos-duration="600">
         <img src="./images/w3navbar.png" class="card-img-top" alt="w3school navbar">
         <div class="card-body">
-          <h5 class="card-title">W3Schools Navbar Clone</h5>
-          <p class="card-text">A responsive replica of the W3Schools navigation bar using HTML and CSS, built to practice layout and styling techniques.</p>
-          <a href="#" class="btn btn-primary">View Project</a>
+          <h5 class="card-title"  style="color: #FFD700">W3Schools Navbar Clone</h5>
+          <p class="card-text" style="color: white;" >A responsive replica of the W3Schools navigation bar using HTML and CSS, built to practice layout and styling techniques.</p>
+          <a href="#" class="btn btn-outline-primary">View Project</a>
+        </div>
+      </div>
+            <div class="card project-card" style="background-color: rgba(255, 255, 255, 0.05)" data-aos="fade-up" data-aos-duration="650">
+        <img src="./images/goibibo.png" class="card-img-top" alt="goibibo clone">
+        <div class="card-body">
+          <h5 class="card-title"  style="color: #FFD700">Goibibo Homepage Clone</h5>
+          <p class="card-text" style="color: white;">A responsive clone of the Goibibo homepage built using HTML and CSS, focused on layout structuring and UI design replication.</p>
+          <a href="#" class="btn btn-outline-primary">View Project</a>
+        </div>
+      </div>
+            <div class="card project-card" style="background-color: rgba(255, 255, 255, 0.05)" data-aos="fade-up" data-aos-duration="700" >
+        <img src="./images/goibibo.png" class="card-img-top" alt="goibibo clone">
+        <div class="card-body">
+          <h5 class="card-title"  style="color: #FFD700">Goibibo Homepage Clone</h5>
+          <p class="card-text" style="color: white;">A responsive clone of the Goibibo homepage built using HTML and CSS, focused on layout structuring and UI design replication.</p>
+          <a href="#" class="btn btn-outline-primary">View Project</a>
         </div>
       </div>
                     </div>
@@ -158,19 +168,18 @@
             <section id="contact">
                 <h1 class="head">contact.</h1>
                 <div class="section-container">
-                    <form>
+                    <form onsubmit="sendEmail(event)">
   <div class="mb-3">
-    <label for="form-name" class="form-label">Name</label>
+    <h5 class="highlight" for="form-name" class="form-label">Name</h5>
 <input class="form-control form-control-lg" id="form-name" type="text" placeholder="Enter Your Name" aria-label=".form-control-lg example">
   </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <h5 class="highlight" for="InputEmail1" class="form-label">Email address</h5>
+    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
   </div>
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <h5 class="highlight" for="FormControlTextarea1" class="form-label"> Message</h5>
+  <textarea class="form-control" id="FormControlTextarea1" rows="3"placeholder="Enter Your Message"></textarea>
 </div>
   <div class="d-grid gap-2">
   <button class="btn btn-primary" type="submit">submit</button>
@@ -194,12 +203,21 @@
         </footer> -->
 
         <!-- bootstrap js -->
+         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("fJlIJVqikM-eKiy-k"); 
+</script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
             crossorigin="anonymous"
         ></script>
         <script src="/js/bootstrap.js"></script>
-        <script src="script.js"></script>
+        <script src="index.js"></script>
+       
     </body>
 </html>

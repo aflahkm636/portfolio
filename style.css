@@ -13,12 +13,7 @@ body {
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-/* .navbar1{
-  width: 100%;
-  position: fixed;
-  z-index: 9;
 
-} */
 .navlist-item:hover {
     border-bottom: 5px solid rgb(110, 179, 233);
     border-radius: 5px;
@@ -32,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Full height of viewport */
+    min-height: 80vh; 
     padding: 0;
     background-color: black;
     color: white;
@@ -89,12 +84,14 @@ body {
 }
 
 .introtext p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .6);
 }
 
 .highlight {
-    color: #ffd700;
+    color: #FFD700;
 }
 
 /* .profilelinks-container {
@@ -125,7 +122,7 @@ body {
 .head {
     font-size: clamp(1.8rem, 4vw, 2.5rem);
     font-weight: 600;
-    color: #ffd700;
+    color: #FFD700;
     margin-bottom: 20px;
     text-align: center;
 
@@ -173,7 +170,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-.skill-container:hover {
+.skill-container:hover{
     transform: scale(1.05);
 }
 
@@ -190,7 +187,7 @@ body {
 #projects {
     background-color: transparent;
     padding: 60px 20px;
-    color: white;
+    /* color: white; */
 }
 
 .project-wrapper {
@@ -203,20 +200,16 @@ body {
 }
 
 .project-card {
-    background-color: #1e1e1e;
-    color: white;
     border: none;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 8px grey(28, 27, 27, 0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
-}
-
+}       
 .project-card .card-img-top {
     height: 200px;
     object-fit: cover;
@@ -303,19 +296,4 @@ body {
   }
 }
 
-/* .typewriter {
-  overflow: hidden;
-  border-right: 2px solid #fff;
-  white-space: nowrap;
-  width: 0;
-  animation: typing 3s steps(30, end) forwards;
-}
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-} */
