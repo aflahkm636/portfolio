@@ -13,7 +13,15 @@ body {
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+.nav-link {
+  color: #ffffff !important;
+  transition: all 0.3s ease;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #FFD700 !important;
+  transform: scale(1.05);
+}
 .navlist-item:hover {
     border-bottom: 5px solid rgb(110, 179, 233);
     border-radius: 5px;
@@ -113,7 +121,7 @@ body {
 
 /* ===== Container ===== */
 .section-container {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -160,7 +168,7 @@ body {
 .skill-container {
     background-color: rgba(255, 255, 255, 0.05);
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     height: 250px;
     border-radius: 10px;
     display: flex;
@@ -206,7 +214,10 @@ body {
     box-shadow: 0 20px 8px grey(28, 27, 27, 0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.project-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
 .project-card:hover {
     transform: scale(1.3);
 }       
@@ -232,10 +243,10 @@ footer{
     text-align: center
 }
 
-#skills,  #contact {
+/* #skills,  #contact {
     background-color: #0d1117;
 
-}
+} */
 /* 🔁 Responsive: Stack and resize text */
 @media (max-width: 768px) {
     .intro {
